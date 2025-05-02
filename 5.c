@@ -3,7 +3,7 @@
 int main() {
     int a,score;
 printf("点数を入力してください:");
-scanf ("%")  
+scanf ("%d",&score) ; 
     if (a)
    {
     /* code */
