@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夏祭りの思い出</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e9e9e;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #00eaff;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .container {
+            margin: 30px auto;
+            max-width: 800px;
+        }
+
+        .fireworks {
+            position: relative;
+            margin: 50px 0;
+        }
+
+        .firework {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ff0000;
+            animation: firework 1.5s ease-out infinite;
+        }
+
+        @keyframes firework {
+            0% { transform: scale(0); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        .firework:nth-child(odd) {
+            background-color: #73ff00;
+        }
+
+        .firework:nth-child(even) {
+            background-color: #00ccff;
+        }
+
+        .yatai {
+            background-color: #ff4500;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        .footer-text {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       青空の下、僕は自由だった
+    </header>
+
+    <div class="container">
+        <h1> <font color="">
+            今年の夏休みで楽しんだこと</h1></font>
+
+        <p> 
+            夏祭りの屋台でおいしい食べ物を楽しみ、花火を見て、素晴らしい夏の夜を過ごしました。
+        旅行にも行きました。和歌山県や大阪府や三重県に行きました。和歌山と三重県では水族館やプールに行き、大阪ではおばあちゃんの家に行きました。
+        </p>  <img src="https://static.yukoyuko.net/photo/3089/1/0001_600.jpg" width="400" height="200" />
+       
+
+        <div class="fireworks">
+            <div class="firework" style="top: 30px; left: 50%;"></div>
+            <div class="firework" style="top: 50px; left: 60%;"></div>
+            <div class="firework" style="top: 100px; left: 30%;"></div>
+            <div class="firework" style="top: 70px; left: 80%;"></div>
+        </div>
+
+        <div class="yatai">
+          <h2>屋台の楽しみ</h2>
+            <p>焼きそば、金魚すくい、わたがし！夏祭りの屋台でいろんなものを楽しみました。</p>
+        </div><button onclick><a href="https://www.youtube.com/watch?v=h6-wS6SeL1k" target="_blank" rel="noopener noreferrer">その時の様子</a>
+</button>
+
+        <div class="yatai">
+            <h2>花火の美しさ</h2>
+            <p>夜空に咲く花火がとても美しく、みんなで見上げて歓声をあげました。</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-text">今年も素晴らしい夏祭りでした！また来年も楽しみにしています。</p>
+    </footer>
+</body>
+</html>
+
